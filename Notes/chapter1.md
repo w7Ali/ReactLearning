@@ -73,5 +73,3 @@ const App = () => (
 - **Component:** A reusable UI piece (like a function).
 - **Props:** Data passed to components to make them dynamic.
 - **Destructuring:** A cleaner way to extract prop values.
-
-Let me know if you'd like more examples or explanations, brother! 🚀

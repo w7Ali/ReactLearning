@@ -1,11 +1,14 @@
 import './App.css';
 import './Card.css';
+import { useState } from 'react';
 
 const Card = ({ title, price }) => {
+  const [hasLiked, sethasLiked] = useState(false);
   return (
     <div className="card">
       <h1 className="card-title">{title}</h1>
       <h3 className="card-price">{price}</h3>
+      <button onClick={() => sethasLiked(!hasLiked)}>{hasLiked ? '❤️' : '🤍'}</button>
     </div>
   );
 };
